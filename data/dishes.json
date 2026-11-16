@@ -1,0 +1,552 @@
+[
+  {
+    "id": "ost-och-skinkpaj",
+    "name": "Ost- och skinkpaj",
+    "aliases": [
+      "skinkpaj",
+      "ostpaj med skinka",
+      "ham and cheese pie"
+    ],
+    "category": "Bakat",
+    "hint": "Knytkalasets trygga kort",
+    "fact": "Har räddat fler svenska knytkalas än någon annan rätt – ingen har någonsin tagit med två.",
+    "image": "images/07a33c43.svg",
+    "focus": {
+      "x": 39,
+      "y": 32
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkmacka",
+    "name": "Ost- och skinkmacka",
+    "aliases": [
+      "skinkmacka",
+      "ostmacka med skinka",
+      "smörgås med ost och skinka",
+      "kall macka"
+    ],
+    "category": "Smörgås",
+    "hint": "Svensk matsäck sedan urminnes tider",
+    "fact": "Sveriges mest packade matsäck. Statistiskt sett ligger det en i en ryggsäck i närheten av dig just nu.",
+    "image": "images/9deba747.svg",
+    "focus": {
+      "x": 75,
+      "y": 47
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "varm-macka",
+    "name": "Varm macka",
+    "aliases": [
+      "ost- och skinktoast",
+      "ostochskinktoast",
+      "skinktoast",
+      "toast",
+      "varm smörgås",
+      "mackjärn-macka"
+    ],
+    "category": "Smörgås",
+    "hint": "Fritidsgården, 16:30",
+    "fact": "Smörgåsjärnet har bränt fler svenska fingrar än spisen. Osten som rinner ut på sidan är den bästa delen.",
+    "image": "images/43cc39db.svg",
+    "focus": {
+      "x": 48,
+      "y": 63
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "croque-monsieur",
+    "name": "Croque monsieur",
+    "aliases": [
+      "croque",
+      "krok monsjö"
+    ],
+    "category": "Smörgås",
+    "hint": "Fransk caféklassiker",
+    "fact": "Dök upp på Paris-caféer runt 1910. Namnet betyder ungefär 'knapra, herrn'.",
+    "image": "images/1332fd6c.svg",
+    "focus": {
+      "x": 56,
+      "y": 43
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "croque-madame",
+    "name": "Croque madame",
+    "aliases": [
+      "croque med ägg"
+    ],
+    "category": "Smörgås",
+    "hint": "Fransk caféklassiker – med hatt",
+    "fact": "En croque monsieur med ett stekt ägg på toppen. Ägget sägs likna en damhatt från sekelskiftet.",
+    "image": "images/bcf44cbb.svg",
+    "focus": {
+      "x": 58,
+      "y": 65
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "pizza-capricciosa",
+    "name": "Pizza capricciosa",
+    "aliases": [
+      "capricciosa",
+      "capri",
+      "kapricciosa"
+    ],
+    "category": "Pizza",
+    "hint": "Svensk pizzeria-topplista, alltid topp tre",
+    "fact": "Har legat i toppen av svenskarnas pizzabeställningar i decennier. Champinjonerna är inte förhandlingsbara.",
+    "image": "images/929d4194.svg",
+    "focus": {
+      "x": 74,
+      "y": 68
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "pizza-vesuvio",
+    "name": "Pizza vesuvio",
+    "aliases": [
+      "vesuvio",
+      "skinkpizza",
+      "pizza med skinka"
+    ],
+    "category": "Pizza",
+    "hint": "Nummer 2 på menyn, nästan överallt",
+    "fact": "Uppkallad efter en vulkan men innehåller bara ost och skinka. Mest svenska pizzan som finns – i Italien känner ingen igen den.",
+    "image": "images/45120662.svg",
+    "focus": {
+      "x": 25,
+      "y": 29
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "calzone",
+    "name": "Calzone",
+    "aliases": [
+      "inbakad pizza",
+      "pizza calzone"
+    ],
+    "category": "Pizza",
+    "hint": "Italiensk – och hopvikt",
+    "fact": "Namnet betyder 'byxben' på napolitanska. Insidan är alltid 400 grader varmare än du tror.",
+    "image": "images/49571323.svg",
+    "focus": {
+      "x": 66,
+      "y": 29
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkfrallor",
+    "name": "Ost- och skinkfrallor",
+    "aliases": [
+      "skinkfrallor",
+      "frallor med ost och skinka",
+      "fylld fralla"
+    ],
+    "category": "Bakat",
+    "hint": "Söndagsfrukost, nybakat",
+    "fact": "Ordet 'fralla' kommer från 'franskbröd'. Ost och skinka inbakat är bara att ta det ett steg längre.",
+    "image": "images/b798d526.svg",
+    "focus": {
+      "x": 74,
+      "y": 61
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkcroissant",
+    "name": "Ost- och skinkcroissant",
+    "aliases": [
+      "skinkcroissant",
+      "croissant med ost och skinka",
+      "croissant jambon fromage"
+    ],
+    "category": "Bakat",
+    "hint": "Bensinmackans frukostdisk",
+    "fact": "Den vanligaste frukosten på svenska tågperronger. Smulorna hittar du i jackfickan i tre veckor.",
+    "image": "images/483b7c5e.svg",
+    "focus": {
+      "x": 62,
+      "y": 70
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkpiroger",
+    "name": "Ost- och skinkpiroger",
+    "aliases": [
+      "piroger",
+      "pirog",
+      "skinkpiroger",
+      "ost- och skinkpirog"
+    ],
+    "category": "Bakat",
+    "hint": "Frysdisken – med rysk släkt",
+    "fact": "Piroger kom till Sverige österifrån, men ost- och skinkvarianten är ett helt svenskt påfund från frysdisken.",
+    "image": "images/d9d466f1.svg",
+    "focus": {
+      "x": 38,
+      "y": 72
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "quiche-lorraine",
+    "name": "Quiche lorraine",
+    "aliases": [
+      "quiche",
+      "lorrainepaj",
+      "kish"
+    ],
+    "category": "Bakat",
+    "hint": "Fransk klassiker från Lothringen",
+    "fact": "Originalet från Lorraine innehåller bacon men ingen ost alls. Svenskarna fixade det.",
+    "image": "images/286a7677.svg",
+    "focus": {
+      "x": 38,
+      "y": 65
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkmuffins",
+    "name": "Ost- och skinkmuffins",
+    "aliases": [
+      "matmuffins",
+      "skinkmuffins",
+      "salta muffins"
+    ],
+    "category": "Bakat",
+    "hint": "Mellanmål i matlådan",
+    "fact": "Den enda muffinsen man kan äta till lunch utan att någon höjer på ögonbrynen.",
+    "image": "images/92e2d5e9.svg",
+    "focus": {
+      "x": 54,
+      "y": 52
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinksas",
+    "name": "Pasta med ost- och skinksås",
+    "aliases": [
+      "ost- och skinksås",
+      "skinksås",
+      "pasta med skinksås",
+      "ostsås med skinka",
+      "studentpasta"
+    ],
+    "category": "Sås",
+    "hint": "Studentkorridorens husmanskost",
+    "fact": "Kräver tre ingredienser, en kastrull och noll ambition. Därför älskad i varje studentkorridor.",
+    "image": "images/54db8aa4.svg",
+    "focus": {
+      "x": 41,
+      "y": 61
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "pasta-carbonara-skinka",
+    "name": "Carbonara med skinka",
+    "aliases": [
+      "carbonara",
+      "pasta carbonara",
+      "svensk carbonara",
+      "skinkcarbonara"
+    ],
+    "category": "Pasta",
+    "hint": "Romersk klassiker, svensk tolkning",
+    "fact": "En romare skulle svimma: här är det skinka och grädde istället för guanciale. Gott ändå.",
+    "image": "images/dc371727.svg",
+    "focus": {
+      "x": 71,
+      "y": 52
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkgratang",
+    "name": "Ost- och skinkgratäng",
+    "aliases": [
+      "skinkgratäng",
+      "pastagratäng med skinka",
+      "makaronigratäng med skinka",
+      "makaronilåda med skinka"
+    ],
+    "category": "Ugnsrätt",
+    "hint": "Skolmat, onsdagar",
+    "fact": "Ordet gratäng kommer från franskans 'gratter' – att skrapa. Alla slåss om den brända kanten.",
+    "image": "images/f61b8240.svg",
+    "focus": {
+      "x": 66,
+      "y": 49
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkfylld-potatis",
+    "name": "Ost- och skinkfylld potatis",
+    "aliases": [
+      "fylld potatis",
+      "bakad potatis med ost och skinka",
+      "ugnspotatis med skinka",
+      "bakpotatis"
+    ],
+    "category": "Ugnsrätt",
+    "hint": "Gatuköksklassiker från 80-talet",
+    "fact": "Bakad potatis med fyllning var 80-talets streetfood i Sverige. Sen kom kebaben.",
+    "image": "images/65f2666d.svg",
+    "focus": {
+      "x": 40,
+      "y": 67
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "cordon-bleu",
+    "name": "Cordon bleu",
+    "aliases": [
+      "kycklingcordonbleu",
+      "schnitzel cordon bleu",
+      "cordon blue"
+    ],
+    "category": "Varmrätt",
+    "hint": "Schweizisk – och fylld",
+    "fact": "Betyder 'blått band', efter en fransk riddarorden. Osten rinner alltid ut på fel sida.",
+    "image": "images/48d1c751.svg",
+    "focus": {
+      "x": 53,
+      "y": 64
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkomelett",
+    "name": "Ost- och skinkomelett",
+    "aliases": [
+      "omelett",
+      "skinkomelett",
+      "omelett med ost och skinka"
+    ],
+    "category": "Ägg",
+    "hint": "Hotellfrukostens omelettstation",
+    "fact": "Den enda anledningen att ställa sig i kö på en hotellfrukost.",
+    "image": "images/19352461.svg",
+    "focus": {
+      "x": 36,
+      "y": 66
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkrullar",
+    "name": "Ost- och skinkrullar",
+    "aliases": [
+      "pinwheels",
+      "skinkrullar",
+      "tortillarullar",
+      "snurror"
+    ],
+    "category": "Tilltugg",
+    "hint": "Kalasbordet på 7-årskalaset",
+    "fact": "Pinwheels, snurror eller rullar – ingen vet vad de heter, men alla äter fem stycken.",
+    "image": "images/d5b6fb05.svg",
+    "focus": {
+      "x": 61,
+      "y": 69
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkpinchos",
+    "name": "Ost- och skinkpinchos",
+    "aliases": [
+      "pinchos",
+      "pintxos",
+      "spett med ost och skinka",
+      "plockmat"
+    ],
+    "category": "Tilltugg",
+    "hint": "Spansk barkultur",
+    "fact": "I Baskien räknar man notan genom att räkna tandpetarna på tallriken. Ärlighet är en dygd.",
+    "image": "images/87fd569c.svg",
+    "focus": {
+      "x": 44,
+      "y": 32
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "panini",
+    "name": "Panini",
+    "aliases": [
+      "panino",
+      "grillad panini",
+      "panini med ost och skinka"
+    ],
+    "category": "Smörgås",
+    "hint": "Italiensk caffè – med grillränder",
+    "fact": "'Panini' är plural på italienska. Att beställa 'en panini' är tekniskt sett att beställa flera.",
+    "image": "images/aa0959bf.svg",
+    "focus": {
+      "x": 37,
+      "y": 74
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkwrap",
+    "name": "Ost- och skinkwrap",
+    "aliases": [
+      "wrap",
+      "skinkwrap",
+      "tortillawrap"
+    ],
+    "category": "Smörgås",
+    "hint": "Kiosken på tågstationen",
+    "fact": "Uppfanns för att kunna ätas med en hand. Ingen har någonsin lyckats.",
+    "image": "images/b710d250.svg",
+    "focus": {
+      "x": 40,
+      "y": 63
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "monte-cristo",
+    "name": "Monte Cristo",
+    "aliases": [
+      "montecristo",
+      "monte cristo sandwich"
+    ],
+    "category": "Smörgås",
+    "hint": "Amerikansk diner – med florsocker",
+    "fact": "En friterad eller äggstekt ost- och skinkmacka med florsocker och sylt. USA, alltså.",
+    "image": "images/566a90fe.svg",
+    "focus": {
+      "x": 41,
+      "y": 68
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkbaguette",
+    "name": "Ost- och skinkbaguette",
+    "aliases": [
+      "baguette",
+      "skinkbaguette",
+      "jambon-beurre",
+      "baguette med ost och skinka"
+    ],
+    "category": "Smörgås",
+    "hint": "Färjans cafeteria",
+    "fact": "Fransmännen äter över en miljard jambon-beurre om året. Vi tar en på Finlandsfärjan.",
+    "image": "images/b4f195b8.svg",
+    "focus": {
+      "x": 27,
+      "y": 40
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "toast-hawaii",
+    "name": "Toast Hawaii",
+    "aliases": [
+      "hawaiitoast",
+      "hawaii toast",
+      "toast med ananas"
+    ],
+    "category": "Smörgås",
+    "hint": "Västtysk 50-talsexotik",
+    "fact": "Populariserades av den tyska tv-kocken Clemens Wilmenrod på 50-talet. Ananas på burk var höjden av lyx.",
+    "image": "images/532fa7b3.svg",
+    "focus": {
+      "x": 46,
+      "y": 42
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinkpannkakor",
+    "name": "Ost- och skinkpannkakor",
+    "aliases": [
+      "pannkakor med ost och skinka",
+      "fyllda pannkakor",
+      "skinkpannkakor",
+      "pannkaksrullar"
+    ],
+    "category": "Pannkaka",
+    "hint": "Torsdag i Sverige – utan ärtsoppa",
+    "fact": "Pannkakor på torsdag är svensk lag (nästan). Ost och skinka är för den som inte orkar vänta på sylten.",
+    "image": "images/9889100f.svg",
+    "focus": {
+      "x": 37,
+      "y": 28
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "galette-complete",
+    "name": "Galette complète",
+    "aliases": [
+      "galette",
+      "galett",
+      "bovetecrêpe",
+      "crêpe complète"
+    ],
+    "category": "Pannkaka",
+    "hint": "Bretagne – bovete och ägg",
+    "fact": "Bretonsk bovetecrêpe med ost, skinka och ägg. 'Complète' betyder att den är komplett. Det stämmer.",
+    "image": "images/72b03431.svg",
+    "focus": {
+      "x": 44,
+      "y": 64
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "ost-och-skinksoppa",
+    "name": "Ostsoppa med skinka",
+    "aliases": [
+      "ost- och skinksoppa",
+      "ostsoppa",
+      "skinksoppa"
+    ],
+    "category": "Soppa",
+    "hint": "Vinterlunch på jobbet",
+    "fact": "Smält ost i soppform. Det är i princip en fondue som har gett upp.",
+    "image": "images/6c4bc11e.svg",
+    "focus": {
+      "x": 52,
+      "y": 73
+    },
+    "credit": "Platshållare (genererad SVG)"
+  },
+  {
+    "id": "pastasallad-skinka",
+    "name": "Pastasallad med ost och skinka",
+    "aliases": [
+      "pastasallad",
+      "skinksallad",
+      "knytkalassallad"
+    ],
+    "category": "Sallad",
+    "hint": "Midsommarbordet, bredvid sillen",
+    "fact": "Finns på varje svenskt knytkalas sedan 1987. Ingen minns vem som tog med den.",
+    "image": "images/cc6f0799.svg",
+    "focus": {
+      "x": 64,
+      "y": 36
+    },
+    "credit": "Platshållare (genererad SVG)"
+  }
+]
