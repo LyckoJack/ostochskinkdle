@@ -290,6 +290,7 @@ button, input, select { font: inherit; color: inherit; }
 }
 .result-fact { margin: 0 auto 10px; max-width: 38ch; }
 .result-credit { margin: 0 0 14px; font-size: .78rem; color: var(--ink-soft); }
+.result-credit a { color: inherit; }
 .result-actions { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; }
 
 .countdown { margin: 14px 0 0; text-align: center; font-size: .95rem; }

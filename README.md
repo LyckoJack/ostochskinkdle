@@ -50,7 +50,12 @@ python3 tools/add_image.py ~/Bilder/paj.jpg ost-och-skinkpaj --credit "Egen bild
 ```
 
 Scriptet beskär bilden till kvadrat, skalar ner till max 1200 px, sparar som WebP med hashat namn och uppdaterar `dishes.json`.
-Flaggor: `--focus X Y`, `--no-crop`, `--quality 82` och `--remove-old` (raderar den gamla platshållaren).
+Flaggor: `--focus X Y`, `--source URL` (länk till originalet, visas som länk på credit), `--no-crop`, `--quality 82` och `--remove-old` (raderar den gamla bilden).
+
+### Granska bilderna
+
+Öppna `http://localhost:8000/tools/review.html`. Där syns alla rätter med hela bilden, startvyn (8×) och vyn efter fyra fel (2,5×), plus credit-länk till originalet.
+Markera ✅/❌ och tryck "Lista underkända".
 
 ### Sätta fokuspunkt
 

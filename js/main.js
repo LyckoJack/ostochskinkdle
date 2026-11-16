@@ -205,7 +205,19 @@ function renderResult() {
     : 'Slut på försök – det var';
   els.resultName.textContent = dish.name;
   els.resultFact.textContent = dish.fact;
-  els.resultCredit.textContent = dish.credit ? `Bild: ${dish.credit}` : '';
+  els.resultCredit.replaceChildren();
+  if (dish.credit) {
+    if (/^https:\/\//.test(dish.source || '')) {
+      const a = document.createElement('a');
+      a.href = dish.source;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = dish.credit;
+      els.resultCredit.append(a);
+    } else {
+      els.resultCredit.append(dish.credit);
+    }
+  }
 }
 
 function render({ animate = true } = {}) {

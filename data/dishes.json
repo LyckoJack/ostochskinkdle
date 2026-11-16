@@ -10,12 +10,13 @@
     "category": "Bakat",
     "hint": "Knytkalasets trygga kort",
     "fact": "Har räddat fler svenska knytkalas än någon annan rätt – ingen har någonsin tagit med två.",
-    "image": "images/07a33c43.svg",
+    "image": "images/87a7f746e4.webp",
     "focus": {
-      "x": 39,
-      "y": 32
+      "x": 55,
+      "y": 50
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: HarshLight, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ham_%26_Cheese_Quiche.jpg"
   },
   {
     "id": "ost-och-skinkmacka",
@@ -29,12 +30,13 @@
     "category": "Smörgås",
     "hint": "Svensk matsäck sedan urminnes tider",
     "fact": "Sveriges mest packade matsäck. Statistiskt sett ligger det en i en ryggsäck i närheten av dig just nu.",
-    "image": "images/9deba747.svg",
+    "image": "images/4a4aaffe57.webp",
     "focus": {
-      "x": 75,
-      "y": 47
+      "x": 45,
+      "y": 22
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Daderot, CC0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ham_and_cheese_sandwich_-_Massachusetts.jpg"
   },
   {
     "id": "varm-macka",
@@ -50,12 +52,13 @@
     "category": "Smörgås",
     "hint": "Fritidsgården, 16:30",
     "fact": "Smörgåsjärnet har bränt fler svenska fingrar än spisen. Osten som rinner ut på sidan är den bästa delen.",
-    "image": "images/43cc39db.svg",
+    "image": "images/46b4bded8c.webp",
     "focus": {
-      "x": 48,
-      "y": 63
+      "x": 65,
+      "y": 35
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: 24 WA GN 24, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Grilled_ham_and_cheese_sandwich.jpg"
   },
   {
     "id": "croque-monsieur",
@@ -67,12 +70,13 @@
     "category": "Smörgås",
     "hint": "Fransk caféklassiker",
     "fact": "Dök upp på Paris-caféer runt 1910. Namnet betyder ungefär 'knapra, herrn'.",
-    "image": "images/1332fd6c.svg",
+    "image": "images/3d41bacefb.webp",
     "focus": {
-      "x": 56,
-      "y": 43
+      "x": 25,
+      "y": 25
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Photogoddle, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cambodian_Croque_Monsieur.jpg"
   },
   {
     "id": "croque-madame",
@@ -83,12 +87,13 @@
     "category": "Smörgås",
     "hint": "Fransk caféklassiker – med hatt",
     "fact": "En croque monsieur med ett stekt ägg på toppen. Ägget sägs likna en damhatt från sekelskiftet.",
-    "image": "images/bcf44cbb.svg",
+    "image": "images/ce5a2e9716.webp",
     "focus": {
-      "x": 58,
-      "y": 65
+      "x": 78,
+      "y": 25
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Andy Li, CC0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Croque_Madame_-_Milfey_Patisserie_2026-03-02.jpg"
   },
   {
     "id": "pizza-capricciosa",
@@ -101,12 +106,13 @@
     "category": "Pizza",
     "hint": "Svensk pizzeria-topplista, alltid topp tre",
     "fact": "Har legat i toppen av svenskarnas pizzabeställningar i decennier. Champinjonerna är inte förhandlingsbara.",
-    "image": "images/929d4194.svg",
+    "image": "images/2aca7c7786.webp",
     "focus": {
-      "x": 74,
-      "y": 68
+      "x": 25,
+      "y": 60
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Phil Whitehouse from London, United Kingdom, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pizza_capricciosa.jpg"
   },
   {
     "id": "pizza-vesuvio",
@@ -119,12 +125,13 @@
     "category": "Pizza",
     "hint": "Nummer 2 på menyn, nästan överallt",
     "fact": "Uppkallad efter en vulkan men innehåller bara ost och skinka. Mest svenska pizzan som finns – i Italien känner ingen igen den.",
-    "image": "images/45120662.svg",
+    "image": "images/0899234069.webp",
     "focus": {
-      "x": 25,
-      "y": 29
+      "x": 55,
+      "y": 45
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Takeaway, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:2014_Pizza_con_funghi_e_prosciutto_cotto_e_mozzarella_di_bufala.jpg"
   },
   {
     "id": "calzone",
@@ -136,12 +143,13 @@
     "category": "Pizza",
     "hint": "Italiensk – och hopvikt",
     "fact": "Namnet betyder 'byxben' på napolitanska. Insidan är alltid 400 grader varmare än du tror.",
-    "image": "images/49571323.svg",
+    "image": "images/5fc88d664f.webp",
     "focus": {
-      "x": 66,
-      "y": 29
+      "x": 60,
+      "y": 30
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Mario56, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Calzone_Tradition.JPG"
   },
   {
     "id": "ost-och-skinkfrallor",
@@ -154,12 +162,13 @@
     "category": "Bakat",
     "hint": "Söndagsfrukost, nybakat",
     "fact": "Ordet 'fralla' kommer från 'franskbröd'. Ost och skinka inbakat är bara att ta det ett steg längre.",
-    "image": "images/b798d526.svg",
+    "image": "images/25f933630a.webp",
     "focus": {
-      "x": 74,
-      "y": 61
+      "x": 50,
+      "y": 55
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Finbar.concaig, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ham_and_cheese_rolls_aussie_(cropped).jpg"
   },
   {
     "id": "ost-och-skinkcroissant",
@@ -172,12 +181,13 @@
     "category": "Bakat",
     "hint": "Bensinmackans frukostdisk",
     "fact": "Den vanligaste frukosten på svenska tågperronger. Smulorna hittar du i jackfickan i tre veckor.",
-    "image": "images/483b7c5e.svg",
+    "image": "images/47da7bc683.webp",
     "focus": {
-      "x": 62,
-      "y": 70
+      "x": 45,
+      "y": 65
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Andy Li, CC0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ham_%26_cheese_croissant_-_Trading_Post_Coffee_Roasters_2025-12-31.jpg"
   },
   {
     "id": "ost-och-skinkpiroger",
@@ -191,12 +201,13 @@
     "category": "Bakat",
     "hint": "Frysdisken – med rysk släkt",
     "fact": "Piroger kom till Sverige österifrån, men ost- och skinkvarianten är ett helt svenskt påfund från frysdisken.",
-    "image": "images/d9d466f1.svg",
+    "image": "images/00b4835499.webp",
     "focus": {
-      "x": 38,
-      "y": 72
+      "x": 40,
+      "y": 50
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Pannet, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B8%D1%80%D0%BE%D0%B6%D0%BA%D0%B8_02.jpg"
   },
   {
     "id": "quiche-lorraine",
@@ -209,12 +220,13 @@
     "category": "Bakat",
     "hint": "Fransk klassiker från Lothringen",
     "fact": "Originalet från Lorraine innehåller bacon men ingen ost alls. Svenskarna fixade det.",
-    "image": "images/286a7677.svg",
+    "image": "images/66d9e430df.webp",
     "focus": {
-      "x": 38,
-      "y": 65
+      "x": 40,
+      "y": 40
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Arnaud 25, CC0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Quiche_lorraine_04.jpg"
   },
   {
     "id": "ost-och-skinkmuffins",
@@ -227,12 +239,13 @@
     "category": "Bakat",
     "hint": "Mellanmål i matlådan",
     "fact": "Den enda muffinsen man kan äta till lunch utan att någon höjer på ögonbrynen.",
-    "image": "images/92e2d5e9.svg",
+    "image": "images/5729499782.webp",
     "focus": {
-      "x": 54,
-      "y": 52
+      "x": 50,
+      "y": 55
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Viktorija N. Ivanov, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8_%D0%BC%D0%B0%D1%84%D0%B8%D0%BD%D0%B8_%D1%81%D0%BE_%D1%81%D0%B8%D1%80%D0%B5%D1%9A%D0%B5.jpg"
   },
   {
     "id": "ost-och-skinksas",
@@ -247,12 +260,13 @@
     "category": "Sås",
     "hint": "Studentkorridorens husmanskost",
     "fact": "Kräver tre ingredienser, en kastrull och noll ambition. Därför älskad i varje studentkorridor.",
-    "image": "images/54db8aa4.svg",
+    "image": "images/bf8c01ef8b.webp",
     "focus": {
-      "x": 41,
-      "y": 61
+      "x": 30,
+      "y": 50
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: transcendancing, CC BY-SA 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Made_pasta_for_dinner._Leftover_Christmas_ham_and_Broccoli_in_a_Cream_Sauce._Turned_out_even_better_than_I_hoped._Secret_to_cream_sauces,_keep_it_simple_and_use_patience._(32274116756).jpg"
   },
   {
     "id": "pasta-carbonara-skinka",
@@ -266,12 +280,13 @@
     "category": "Pasta",
     "hint": "Romersk klassiker, svensk tolkning",
     "fact": "En romare skulle svimma: här är det skinka och grädde istället för guanciale. Gott ändå.",
-    "image": "images/dc371727.svg",
+    "image": "images/ee0773a0da.webp",
     "focus": {
-      "x": 71,
-      "y": 52
+      "x": 75,
+      "y": 55
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Javier Somoza, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg"
   },
   {
     "id": "ost-och-skinkgratang",
@@ -285,12 +300,13 @@
     "category": "Ugnsrätt",
     "hint": "Skolmat, onsdagar",
     "fact": "Ordet gratäng kommer från franskans 'gratter' – att skrapa. Alla slåss om den brända kanten.",
-    "image": "images/f61b8240.svg",
+    "image": "images/0d3cc0cedc.webp",
     "focus": {
-      "x": 66,
-      "y": 49
+      "x": 35,
+      "y": 40
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Peachyeung316, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Baked_Pasta_with_Double_Cheese_and_Ham.jpg"
   },
   {
     "id": "ost-och-skinkfylld-potatis",
@@ -304,12 +320,13 @@
     "category": "Ugnsrätt",
     "hint": "Gatuköksklassiker från 80-talet",
     "fact": "Bakad potatis med fyllning var 80-talets streetfood i Sverige. Sen kom kebaben.",
-    "image": "images/65f2666d.svg",
+    "image": "images/0ea5675af0.webp",
     "focus": {
-      "x": 40,
-      "y": 67
+      "x": 35,
+      "y": 48
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Missvain, CC BY 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Dinner_at_home_-_October_2023_-_Sarah_Stierch_02.jpg"
   },
   {
     "id": "cordon-bleu",
@@ -322,12 +339,13 @@
     "category": "Varmrätt",
     "hint": "Schweizisk – och fylld",
     "fact": "Betyder 'blått band', efter en fransk riddarorden. Osten rinner alltid ut på fel sida.",
-    "image": "images/48d1c751.svg",
+    "image": "images/b535b30152.webp",
     "focus": {
-      "x": 53,
-      "y": 64
+      "x": 22,
+      "y": 45
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: bjacobdawson, CC BY-SA 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cordon_Bleu_Mit_Kroketten.jpg"
   },
   {
     "id": "ost-och-skinkomelett",
@@ -340,12 +358,13 @@
     "category": "Ägg",
     "hint": "Hotellfrukostens omelettstation",
     "fact": "Den enda anledningen att ställa sig i kö på en hotellfrukost.",
-    "image": "images/19352461.svg",
+    "image": "images/8960118da1.webp",
     "focus": {
-      "x": 36,
-      "y": 66
+      "x": 60,
+      "y": 55
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: John Freeman, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ham_%26_Cheddar_Omelet_(1)_(38273841901).jpg"
   },
   {
     "id": "ost-och-skinkrullar",
@@ -359,12 +378,13 @@
     "category": "Tilltugg",
     "hint": "Kalasbordet på 7-årskalaset",
     "fact": "Pinwheels, snurror eller rullar – ingen vet vad de heter, men alla äter fem stycken.",
-    "image": "images/d5b6fb05.svg",
+    "image": "images/6fcc7de396.webp",
     "focus": {
-      "x": 61,
-      "y": 69
+      "x": 40,
+      "y": 50
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Kanikatwl, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandwich-_pinwheel_sandwich.JPG"
   },
   {
     "id": "ost-och-skinkpinchos",
@@ -378,12 +398,13 @@
     "category": "Tilltugg",
     "hint": "Spansk barkultur",
     "fact": "I Baskien räknar man notan genom att räkna tandpetarna på tallriken. Ärlighet är en dygd.",
-    "image": "images/87fd569c.svg",
+    "image": "images/f511dba581.webp",
     "focus": {
-      "x": 44,
-      "y": 32
+      "x": 55,
+      "y": 60
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Telle, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pinchos_bermeo_2.JPG"
   },
   {
     "id": "panini",
@@ -396,12 +417,13 @@
     "category": "Smörgås",
     "hint": "Italiensk caffè – med grillränder",
     "fact": "'Panini' är plural på italienska. Att beställa 'en panini' är tekniskt sett att beställa flera.",
-    "image": "images/aa0959bf.svg",
+    "image": "images/9674f9b249.webp",
     "focus": {
-      "x": 37,
-      "y": 74
+      "x": 40,
+      "y": 30
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Jari Asselman, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Panini_broodje_2.jpg"
   },
   {
     "id": "ost-och-skinkwrap",
@@ -414,12 +436,13 @@
     "category": "Smörgås",
     "hint": "Kiosken på tågstationen",
     "fact": "Uppfanns för att kunna ätas med en hand. Ingen har någonsin lyckats.",
-    "image": "images/b710d250.svg",
+    "image": "images/ca3556e8f8.webp",
     "focus": {
-      "x": 40,
-      "y": 63
+      "x": 70,
+      "y": 50
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Andy Li, CC0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Hawaiian_pizza_style_wrap_(Toasted)_-_The_naan_hut_2024-02-06.jpg"
   },
   {
     "id": "monte-cristo",
@@ -431,12 +454,13 @@
     "category": "Smörgås",
     "hint": "Amerikansk diner – med florsocker",
     "fact": "En friterad eller äggstekt ost- och skinkmacka med florsocker och sylt. USA, alltså.",
-    "image": "images/566a90fe.svg",
+    "image": "images/231eddd554.webp",
     "focus": {
-      "x": 41,
-      "y": 68
+      "x": 40,
+      "y": 30
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Visitor7, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Monte_Cristo_Sandwich-1.jpg"
   },
   {
     "id": "ost-och-skinkbaguette",
@@ -450,12 +474,13 @@
     "category": "Smörgås",
     "hint": "Färjans cafeteria",
     "fact": "Fransmännen äter över en miljard jambon-beurre om året. Vi tar en på Finlandsfärjan.",
-    "image": "images/b4f195b8.svg",
+    "image": "images/73ece4eb17.webp",
     "focus": {
-      "x": 27,
-      "y": 40
+      "x": 30,
+      "y": 47
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Boulanger: Nat / Photographer: Nat, CC BY-SA 4.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandwich_jambon-beurre.jpg"
   },
   {
     "id": "toast-hawaii",
@@ -468,12 +493,13 @@
     "category": "Smörgås",
     "hint": "Västtysk 50-talsexotik",
     "fact": "Populariserades av den tyska tv-kocken Clemens Wilmenrod på 50-talet. Ananas på burk var höjden av lyx.",
-    "image": "images/532fa7b3.svg",
+    "image": "images/c3ee1c1b40.webp",
     "focus": {
-      "x": 46,
-      "y": 42
+      "x": 45,
+      "y": 50
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Rainer Z ..., CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Toast_Hawaii_RZ.jpg"
   },
   {
     "id": "ost-och-skinkpannkakor",
@@ -487,12 +513,13 @@
     "category": "Pannkaka",
     "hint": "Torsdag i Sverige – utan ärtsoppa",
     "fact": "Pannkakor på torsdag är svensk lag (nästan). Ost och skinka är för den som inte orkar vänta på sylten.",
-    "image": "images/9889100f.svg",
+    "image": "images/ae0d8d9616.webp",
     "focus": {
-      "x": 37,
-      "y": 28
+      "x": 40,
+      "y": 58
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Geoff Peters from Vancouver, BC, Canada, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Ham_and_cheese_crepe_(3275485711).jpg"
   },
   {
     "id": "galette-complete",
@@ -506,12 +533,13 @@
     "category": "Pannkaka",
     "hint": "Bretagne – bovete och ägg",
     "fact": "Bretonsk bovetecrêpe med ost, skinka och ägg. 'Complète' betyder att den är komplett. Det stämmer.",
-    "image": "images/72b03431.svg",
+    "image": "images/f48c01262d.webp",
     "focus": {
-      "x": 44,
-      "y": 64
+      "x": 35,
+      "y": 75
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Benoît Prieur, CC0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Cr%C3%AAperie_Le_Bouchon_Breton_(La_Valbonne)_-_cr%C3%AApe_compl%C3%A8te_(f%C3%A9vrier_2023).jpg"
   },
   {
     "id": "ost-och-skinksoppa",
@@ -524,12 +552,13 @@
     "category": "Soppa",
     "hint": "Vinterlunch på jobbet",
     "fact": "Smält ost i soppform. Det är i princip en fondue som har gett upp.",
-    "image": "images/6c4bc11e.svg",
+    "image": "images/86ad70df0e.webp",
     "focus": {
-      "x": 52,
-      "y": 73
+      "x": 30,
+      "y": 65
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: jeffreyw, CC BY 2.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Potato_cheese_soup.jpg"
   },
   {
     "id": "pastasallad-skinka",
@@ -542,11 +571,12 @@
     "category": "Sallad",
     "hint": "Midsommarbordet, bredvid sillen",
     "fact": "Finns på varje svenskt knytkalas sedan 1987. Ingen minns vem som tog med den.",
-    "image": "images/cc6f0799.svg",
+    "image": "images/d9fa107bbb.webp",
     "focus": {
-      "x": 64,
-      "y": 36
+      "x": 40,
+      "y": 35
     },
-    "credit": "Platshållare (genererad SVG)"
+    "credit": "Foto: Brynn, CC BY-SA 3.0, via Wikimedia Commons",
+    "source": "https://commons.wikimedia.org/wiki/File:Pasta_salad_closeup.JPG"
   }
 ]

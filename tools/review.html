@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Bildgranskning – Ostochskinkdle</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<style>
+  :root { --cream:#FBF4E6; --paper:#FFFBF3; --ink:#2B1D14; --soft:#5E4A3C; --cheese:#F5BE2E; --ham:#B23A5C; --ok:#2F7A4A; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 16px; background: var(--cream); color: var(--ink); font: 15px/1.45 system-ui, 'Segoe UI', sans-serif; }
+  header { max-width: 1200px; margin: 0 auto 16px; }
+  h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+  .bar button, .bar label { padding: 6px 12px; border: 2px solid var(--ink); border-radius: 10px; background: var(--paper); font: inherit; cursor: pointer; }
+  .count { font-weight: 700; }
+  .grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+  .card { background: var(--paper); border: 2.5px solid var(--ink); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .card.ok { border-color: var(--ok); box-shadow: 0 0 0 2px var(--ok); }
+  .card.bad { border-color: var(--ham); box-shadow: 0 0 0 2px var(--ham); }
+  .imgs { display: grid; grid-template-columns: 2fr 1fr; gap: 2px; background: var(--ink); }
+  .full, .zoom { position: relative; aspect-ratio: 1; overflow: hidden; background: #ddd; }
+  .full img, .zoom img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .full .dot { position: absolute; width: 14px; height: 14px; margin: -7px; border: 2px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px var(--ink); }
+  .zooms { display: grid; gap: 2px; }
+  .zoom span { position: absolute; left: 4px; bottom: 4px; background: var(--cheese); padding: 0 6px; border-radius: 6px; font-weight: 700; font-size: 12px; }
+  .info { padding: 10px 12px 12px; display: grid; gap: 4px; flex: 1; }
+  .name { font-weight: 800; font-size: 1.05rem; }
+  .meta { color: var(--soft); font-size: .85rem; }
+  .credit { font-size: .82rem; }
+  .credit a { color: var(--ink); }
+  .note { font-size: .82rem; background: #FDE9B2; border-radius: 8px; padding: 4px 8px; }
+  .actions { display: flex; gap: 6px; margin-top: 6px; }
+  .actions button { flex: 1; padding: 6px; border: 2px solid var(--ink); border-radius: 8px; background: var(--paper); font: inherit; font-weight: 700; cursor: pointer; }
+  .actions button[aria-pressed="true"].yes { background: #DDF1E3; }
+  .actions button[aria-pressed="true"].no { background: #FBDCE3; }
+  pre { max-width: 1200px; margin: 16px auto; white-space: pre-wrap; background: var(--paper); border: 2px dashed var(--ink); border-radius: 10px; padding: 10px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bildgranskning</h1>
+  <p>Kontrollera att varje bild föreställer rätt rätt och att licensen ser okej ut (klicka på credit-länken).
+     De små rutorna visar spelets första vy (8×) och vyn efter fyra fel (2,5×) runt fokuspunkten. Dina markeringar sparas bara i den här webbläsaren.</p>
+  <div class="bar">
+    <span class="count" id="count"></span>
+    <label><input type="checkbox" id="only-open"> Visa bara ogranskade</label>
+    <button type="button" id="export">Lista underkända</button>
+  </div>
+</header>
+<main class="grid" id="grid"></main>
+<pre id="out" hidden></pre>
+<script type="module">
+  // Saker jag själv var osäker på när jag valde bilderna.
+  const NOTES = {
+    'ost-och-skinkrullar': 'Ser mer ut som stekta snurror än tortillarullar – byt gärna.',
+    'pastasallad-skinka': 'Ingen synlig skinka eller ost.',
+    'ost-och-skinkfylld-potatis': 'Broccoli och ost, ingen synlig skinka.',
+    'pizza-vesuvio': 'Originalet heter "funghi e prosciutto cotto" – lite champinjoner.',
+    'ost-och-skinkwrap': 'Hawaii-wrap (ananas) med läskburk i bild.',
+    'ost-och-skinksoppa': 'Potatis- och ostsoppa med bacon, inte skinka.',
+    'ost-och-skinkmuffins': 'Ostmuffins – skinka syns inte tydligt.',
+    'croque-madame': 'Kontrollera att det är madame (ägg ovanpå).',
+  };
+  const KEY = 'ostochskinkdle:review';
+  let marks = {};
+  try { marks = JSON.parse(localStorage.getItem(KEY)) || {}; } catch {}
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(marks)); } catch {} };
+
+  const dishes = await (await fetch('../data/dishes.json', { cache: 'no-cache' })).json();
+  dishes.sort((a, b) => a.name.localeCompare(b.name, 'sv'));
+  const grid = document.getElementById('grid');
+  const onlyOpen = document.getElementById('only-open');
+
+  function render() {
+    grid.replaceChildren();
+    for (const d of dishes) {
+      if (onlyOpen.checked && marks[d.id]) continue;
+      const card = document.createElement('article');
+      card.className = 'card' + (marks[d.id] ? ' ' + marks[d.id] : '');
+      const origin = `${d.focus.x}% ${d.focus.y}%`;
+      card.innerHTML = `
+        <div class="imgs">
+          <div class="full"><img loading="lazy" alt=""><span class="dot"></span></div>
+          <div class="zooms"><div class="zoom"><img loading="lazy" alt="" data-z="8"><span>8×</span></div><div class="zoom"><img loading="lazy" alt="" data-z="2.5"><span>2,5×</span></div></div>
+        </div>
+        <div class="info">
+          <div class="name"></div>
+          <div class="meta"></div>
+          <div class="credit"></div>
+          <div class="note" hidden></div>
+          <div class="actions">
+            <button type="button" class="yes">✅ Stämmer</button>
+            <button type="button" class="no">❌ Byt</button>
+          </div>
+        </div>`;
+      const [full, ...zooms] = card.querySelectorAll('img');
+      full.src = '../' + d.image;
+      for (const z of zooms) { z.src = full.src; z.style.transformOrigin = origin; z.style.transform = `scale(${z.dataset.z})`; }
+      const dot = card.querySelector('.dot');
+      dot.style.left = d.focus.x + '%'; dot.style.top = d.focus.y + '%';
+      card.querySelector('.name').textContent = d.name;
+      card.querySelector('.meta').textContent = `${d.id} · ${d.category} · fokus ${d.focus.x}, ${d.focus.y}`;
+      const credit = card.querySelector('.credit');
+      if (d.source) {
+        const a = document.createElement('a');
+        a.href = d.source; a.target = '_blank'; a.rel = 'noopener';
+        a.textContent = d.credit || d.source;
+        credit.append(a);
+      } else credit.textContent = d.credit || '(ingen credit)';
+      if (NOTES[d.id]) { const n = card.querySelector('.note'); n.hidden = false; n.textContent = '⚠️ ' + NOTES[d.id]; }
+      for (const [cls, val] of [['yes', 'ok'], ['no', 'bad']]) {
+        const b = card.querySelector('.' + cls);
+        b.setAttribute('aria-pressed', String(marks[d.id] === val));
+        b.addEventListener('click', () => {
+          marks[d.id] = marks[d.id] === val ? undefined : val;
+          if (!marks[d.id]) delete marks[d.id];
+          save(); render();
+        });
+      }
+      grid.append(card);
+    }
+    const ok = Object.values(marks).filter((v) => v === 'ok').length;
+    const bad = Object.values(marks).filter((v) => v === 'bad').length;
+    document.getElementById('count').textContent = `${ok} godkända · ${bad} att byta · ${dishes.length - ok - bad} kvar`;
+  }
+
+  onlyOpen.addEventListener('change', render);
+  document.getElementById('export').addEventListener('click', () => {
+    const out = document.getElementById('out');
+    const bad = dishes.filter((d) => marks[d.id] === 'bad').map((d) => `${d.id}  (${d.name})`);
+    out.hidden = false;
+    out.textContent = bad.length ? 'Byt bild på:\n' + bad.join('\n') : 'Inga underkända bilder.';
+  });
+  render();
+</script>
+</body>
+</html>

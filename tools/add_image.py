@@ -40,10 +40,17 @@ def center_square(img):
 
 
 def main():
+    # Windows-konsoler/pipes med cp1252 klarar inte alla tecken (×, →) – krascha inte på utskrift.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(errors="replace")
+        except AttributeError:
+            pass
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("image", type=Path, help="källbild (jpg/png/webp/…)")
     ap.add_argument("dish_id", help="rättens id i dishes.json, t.ex. ost-och-skinkpaj")
     ap.add_argument("--credit", help='t.ex. "Egen bild" eller "Foto: N.N., CC BY-SA 4.0, via Wikimedia Commons"')
+    ap.add_argument("--source", help="länk till originalet/licensen, t.ex. Commons-sidan")
     ap.add_argument("--focus", nargs=2, type=float, metavar=("X", "Y"), help="fokuspunkt i procent, t.ex. 42 61")
     ap.add_argument("--no-crop", action="store_true", help="beskär inte till kvadrat (spelet visar då object-fit: cover)")
     ap.add_argument("--quality", type=int, default=82, help="WebP-kvalitet (standard 82)")
@@ -82,6 +89,8 @@ def main():
     elif (dish.get("credit") or "").startswith("Platshållare"):
         dish["credit"] = ""
         print("OBS: credit är tomt – lägg till med --credit")
+    if args.source is not None:
+        dish["source"] = args.source
     if args.focus:
         x, y = (max(0.0, min(100.0, v)) for v in args.focus)
         dish["focus"] = {"x": round(x, 1), "y": round(y, 1)}
